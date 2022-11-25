@@ -39,24 +39,28 @@ h3 {
 
 #flexbox {
     display: flex;
-    margin: 40px;
     
+    
+}
+
+.col{
+    border-style: solid;
+    border-color: gold;
 }
 
 .right {
-    border-top-style: solid;
-    border-color:white ;
+    width: 50%;
+    padding: 5%;
+    text-align: center;
+    margin-left: 1px;
+    
 }
 
 .left {
-    border-top-style: solid;
-    border-color:white ;
-
-}
-
-#link {
-    display: flex;
-    
+    width: 50%;
+    padding: 5%;
+    text-align: center;
+    margin-left: 1px;
 }
 
 li {
@@ -119,6 +123,10 @@ margin-left: 20px;
     
     background-color: blue;
     border-style:dotted;
+    
+}
+
+footer {
     
 }
 
