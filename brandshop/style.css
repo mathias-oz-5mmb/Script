@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7px;
+    font-weight: 100;
+    color: lightgray;
+
+    display: inline;
+    justify-content: center;
+    border-right: solid lightgray 2px;
+    padding: 5px;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 10px;
+    position: absolute;  
+    top: 1380px;  
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.li li  {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-left:5px;
+}
+
+.miniitems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2px;
+    top: 4%;
+    right: 1%;
+    position: absolute;
+
+}
+
+.miniitems li {
+    font-size: 8px;
+    font-weight: lighter;
+
+    
+}
+
+
+
+header {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+
+
+}
+
+.menu {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.RETOURNEREN {
+    color: white;
+    font-size: 6px;
+    text-align: center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+
+.logo {
+    width: 50px;   
+}
+
+
+
+nav {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+
+    
+
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+
+   
+
+
+
+}
+
+.search {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 5px;
+    background-color: lightgray;
+    border: none;
+    
+}
+
+.search:hover {
+    border: solid 2px ;
+    transform: translateY(0);
+    transition: 400ms ;
+    
+}
+
+.fa-solid  {
+    margin-left: 10px;
+    cursor: pointer;
+    position: absolute;
+    left:83%;
+    top: 42px;
+
+
+}
+
+.fa-regular {
+    margin-left: 10px;
+    cursor: pointer;
+    position: absolute;
+    left:86%;
+    top: 42px;
+}
+
+.hartje {
+    margin-left: 10px;
+    cursor: pointer;
+    position: absolute;
+    left:89%;
+    top: 42px;
+}
+
+
+
+
+
+.salecode {
+    color: rgba(0, 0, 0, 0.561);
+    background-color:lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+
+.shopnu {
+    color: rgba(0, 0, 0, 0.561);
+    text-decoration: underline;
+
+}
+
+.vid {
+    width: 100%;
+   
+ 
+}
+
+.onder-vid {
+    width: 100%;
+    
+}
+
+.predator {
+    width: 20%;
+    margin-top: 30px;
+}
+
+.predator:hover {
+    border: 2px solid black;
+    transform: translateY(0);
+    transition: 400ms ;
+
+}
+
+.hartje-predator {
+    position: absolute;
+    top: 1200px;
+    left: 180px;
+}
+
+
+.Performance {
+    color: lightgray;
+}
+
+.dames-schoenen {
+    width: 20%;
+    margin: 10px;
+}
+
+.dames-schoenen:hover {
+    border: 2px solid black;
+    transition: 250ms ease ;
+}
+
+.heren-schoenen {
+    width: 20%;
+    margin: 10px;
+}
+
+.heren-schoenen:hover {
+    border: 2px solid black;
+    transition: 250ms ease ;
+}
+
+.eerste { 
+    margin-left: 200px;
+}
+
+.sneakers {
+    position: absolute;
+    top: 1750px;
+    left: 260px;
+}
+
+.hardloopschoenen {
+    position: absolute;
+    top: 1750px;
+    left: 460px;
+}
+
+.teenslippers {
+    position: absolute;
+    top: 1750px;
+    left: 725px;
+}
+
+.eerste-heren {
+    margin-left: 200px;
+    
+}
+
+.sneakers-heren {
+    position: absolute;
+    top: 2057px;
+    left: 260px;
+}
+
+
+.hardloopschoenen-heren {
+    position: absolute;
+    top: 2057px;
+    left: 460px;
+}
+
+.sport-heren {
+    position: absolute;
+    top: 2057px;
+    left: 750px;
+}
+
+.dames-alleschoenen {
+    position: absolute;
+    top: 1550px;
+}
+
+.heren-alleschoenen {
+    position: absolute;
+    top: 1880px;
+}
+#heren {
+    margin-bottom: 100px;
+}
+
+#about {
+    background-color:antiquewhite;
+}
+
+.titels {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 15px;
+    margin-left: 70px;
+    margin-right: 150px;
+    text-align: center;
+
+}
+
+.tekst {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 2vw 3vw;
+    
+
+}
+
+.kortingcode {
+    background-color: yellow;
+    padding: 30px;
+
+}
+
+.kortingcode-h2 {
+    text-align: center;
+    margin-left: 15rem;
+}
+
+.meld-je-gratis-aan {
+    margin-Right: 15rem;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 8px;
+    padding-right: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ 
+}
+
+.meld-je-gratis-aan:hover {
+    color: darkgrey;
+    transition: 400ms ease;
+}
+
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.754);
+}
+
+.boven-footer {
+    background-color: white;
+    padding:20px 20%;
+
+}
+
+footer li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7px;
+    margin: 5px;
+    list-style: none;
+    cursor: pointer;
+}
+
+footer li:first-child {
+    font-size: 15px;
+    font-weight: bolder;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-brands {
+    margin: 2px;
+    cursor: pointer;
+
+}
+
+.onder-footer {
+    color: white;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+
+    
+
+}
+
+.flex-container-footer {
+    display: flex;
+    justify-content: center;
+}

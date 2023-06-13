@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bgc-01: #01c2c7;
+    --bgc-02: #a72d3a;
+    --bgc-03: #d57e6a;
+    --bgc-04: #fd6300;
+    --bgc-05: rgba(0, 0, 0, 0.842);
+    --txt-01: white;
+    --ff-01:'Fira Sans';
+
+}
+
+header {
+    background-color: var(--bgc-02);
+    color: var(--c-01);
+    font-family: var(--ff-01);
+}
+
+.logo-menu {
+    width: 5%;
+    margin-left: 48%;
+}
+
+body {
+   background-color: var(--bgc-05); 
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content:center ;    
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.opstelling {
+    margin-left: 27% ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.artiesten {
+    margin: 20px;
+    width:  250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--txt-01);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+header a:hover {
+    color: var(--bgc-04);
+}
+
+
+
+.fa-brands {
+    margin: 2px;
+    cursor: pointer;
+
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#footer {
+    background-color: var(--bgc-02);
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    color: lightgray;
+    display: inline;
+    justify-content: center;
+    border-right: solid lightgray 2px;
+    padding: 5px;
+}
+
+
+.footer-txt {
+    color: white;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.flex-container-footer {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;    
+}
+
+header input#burger {
+    display: none;
+}
+
+
+
+header label[for="burger"] {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    display: none;
+    width: 100%;
+    padding: 1rem 1ch;
+    background-color: var(--bgc-02);
+    text-align: right;
+    cursor: pointer;
+}
+
+
+@media (width <=750px) {
+    header label[for="burger"] {
+        display: block;
+    }
+
+
+    header nav ul {
+        position: fixed;
+        z-index: 3;
+        top: 3rem;
+        right: 0;
+        display: none;
+        padding-right: 1ch;
+        width: 100%;
+        background-color: var(--bgc-02);
+        text-align: right;
+        user-select: none;
+    }
+
+    header input#burger:checked+label[for="burger"]+nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
